@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ae_fitness">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AE_Fitness">
+        <activity
+            android:name=".powercokus"
+            android:exported="false"
+            android:parentActivityName=".bacak_reyclerview"/>
+        <activity
+            android:name=".oncokus"
+            android:exported="false"
+            android:parentActivityName=".bacak_reyclerview"/>
+        <activity
+            android:name=".dambilcokus"
+            android:exported="false"
+            android:parentActivityName=".bacak_reyclerview"/>
+        <activity
+            android:name=".makinebacakgeri"
+            android:exported="false"
+            android:parentActivityName=".bacak_reyclerview"/>
+        <activity
+            android:name=".dambillaonbacak"
+            android:exported="false"
+            android:parentActivityName=".bacak_reyclerview"/>
+        <activity
+            android:name=".makineonbacak"
+            android:exported="false"
+            android:parentActivityName=".bacak_reyclerview"/>
+        <activity
+            android:name=".acilibacak"
+            android:exported="false"
+            android:parentActivityName=".bacak_reyclerview"/>
+        <activity
+            android:name=".cokus"
+            android:exported="false"
+            android:parentActivityName=".bacak_reyclerview"/>
+        <activity
+            android:name=".bacak_reyclerview"
+            android:exported="false"
+            android:parentActivityName=".reyclerview" />
+        <activity
+            android:name=".geri_reyclerview"
+            android:exported="false"
+            android:parentActivityName=".reyclerview" />
+        <activity
+            android:name=".sirttangeriye"
+            android:exported="false"
+            android:parentActivityName=".geri_reyclerview" />
+        <activity
+            android:name=".dambilsilkme"
+            android:exported="false"
+            android:parentActivityName=".geri_reyclerview" />
+        <activity
+            android:name=".haltersilkme"
+            android:exported="false"
+            android:parentActivityName=".geri_reyclerview" />
+        <activity
+            android:name=".tekkoldambil"
+            android:exported="false"
+            android:parentActivityName=".geri_reyclerview" />
+        <activity
+            android:name=".oturarakmakine"
+            android:exported="false"
+            android:parentActivityName=".geri_reyclerview" />
+        <activity
+            android:name=".yanadogrukanat"
+            android:exported="false"
+            android:parentActivityName=".geri_reyclerview" />
+        <activity
+            android:name=".yerdenkilo"
+            android:exported="false"
+            android:parentActivityName=".geri_reyclerview" />
+        <activity
+            android:name=".barfiks"
+            android:exported="false"
+            android:parentActivityName=".geri_reyclerview" />
+        <activity
+            android:name=".oturarakcaki"
+            android:exported="false"
+            android:parentActivityName=".karin_recyclerview" />
+        <activity
+            android:name=".caki"
+            android:exported="false"
+            android:parentActivityName=".karin_recyclerview" />
+        <activity
+            android:name=".mekik"
+            android:exported="false"
+            android:parentActivityName=".karin_recyclerview" />
+        <activity
+            android:name=".yatarakkarin"
+            android:exported="false"
+            android:parentActivityName=".karin_recyclerview" />
+        <activity
+            android:name=".dambilyana"
+            android:exported="false"
+            android:parentActivityName=".karin_recyclerview" />
+        <activity
+            android:name=".parelelcaki"
+            android:exported="false"
+            android:parentActivityName=".karin_recyclerview" />
+        <activity
+            android:name=".egriyuzey"
+            android:exported="false"
+            android:parentActivityName=".karin_recyclerview" />
+        <activity
+            android:name=".karin_recyclerview"
+            android:exported="false"
+            android:parentActivityName=".reyclerview" />
+        <activity
+            android:name=".altmakara"
+            android:exported="false"
+            android:parentActivityName=".biceps_reyclerview" />
+        <activity
+            android:name=".makinebukme"
+            android:exported="false"
+            android:parentActivityName=".biceps_reyclerview" />
+        <activity
+            android:name=".terspazu"
+            android:exported="false"
+            android:parentActivityName=".biceps_reyclerview" />
+        <activity
+            android:name=".tekdambil"
+            android:exported="false"
+            android:parentActivityName=".biceps_reyclerview" />
+        <activity
+            android:name=".dambilice"
+            android:exported="false"
+            android:parentActivityName=".biceps_reyclerview" />
+        <activity
+            android:name=".dirseksabit"
+            android:exported="false"
+            android:parentActivityName=".biceps_reyclerview" />
+        <activity
+            android:name=".halterpazubukme"
+            android:exported="false"
+            android:parentActivityName=".biceps_reyclerview" />
+        <activity
+            android:name=".pazubukme"
+            android:exported="false"
+            android:parentActivityName=".biceps_reyclerview" />
+        <activity
+            android:name=".biceps_reyclerview"
+            android:exported="false"
+            android:parentActivityName=".reyclerview" />
+        <activity
+            android:name=".kullanicibilgi"
+            android:exported="false" />
+        <activity
+            android:name=".reyclerview"
+            android:exported="false"
+            android:parentActivityName=".anasayfa" />
+        <activity
+            android:name=".kullanicigiris"
+            android:exported="false" />
+        <activity
+            android:name=".anasayfa"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
